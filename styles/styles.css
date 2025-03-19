@@ -1,5 +1,6 @@
 :root {
   --blue: #3882f6;
+  --container-width: 720px;
   --dark-blue: #1f2937;
   --light-grey: #e5e7eb;
   --main-font-family: Roboto, sans-serif;
@@ -27,26 +28,74 @@ h2 {
   font-size: 36px;
 }
 
-p {
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+.btn {
+  background-color: var(--blue);
+  border: none;
+  border-radius: 8px;
+  color: var(--white);
+  font-weight: 700;
+  margin-top: 16px;
+  padding: 5px 16px;
+}
+
+p,
+.links a {
+  color: var(--light-grey);
   font-size: 18px;
 }
 
-button {
-  background-color: var(--blue);
-  color: var(--white);
+.container {
+  margin-inline: auto;
+  max-width: var(--container-width);
 }
 
 .header {
   background-color: var(--dark-blue);
+  padding-block: 16px 48px;
+}
+
+.navbar {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 48px;
+}
+
+.links {
+  column-gap: 16px;
+  display: flex;
 }
 
 .logo {
   color: var(--white);
   font-size: 24px;
+  font-weight: 700;
+}
+
+.hero-wrapper {
+  align-items: center;
+  column-gap: 30px;
+  display: flex;
 }
 
 .hero-content p {
   color: var(--light-grey);
+}
+
+.hero-img-wrapper {
+  max-width: 300px;
 }
 
 .info-section h2 {

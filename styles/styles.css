@@ -48,7 +48,13 @@ img {
   color: var(--white);
   font-weight: 700;
   margin-top: 16px;
+  min-width: 90px;
   padding: 5px 16px;
+}
+
+.btn-white {
+  border: 1px solid var(--white);
+  border-radius: 5px;
 }
 
 p,
@@ -130,7 +136,7 @@ p,
 
 .quote-section {
   background-color: var(--light-grey);
-  padding-block: 5rem;
+  padding-block: 80px;
 }
 
 .quote-section h2 {
@@ -142,4 +148,34 @@ p,
   color: black;
   font-weight: 700;
   text-align: end;
+}
+
+.signup-section {
+  padding-block: 64px;
+}
+
+.cta-wrapper {
+  background-color: var(--blue);
+  border-radius: 8px;
+  color: var(--white);
+  padding-block: 24px;
+}
+
+.cta-wrapper .container-small {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.cta-indication {
+  font-size: 15px;
+}
+
+footer {
+  align-items: center;
+  background: var(--dark-blue);
+  color: var(--white);
+  display: flex;
+  justify-content: center;
+  padding-block: 32px;
 }

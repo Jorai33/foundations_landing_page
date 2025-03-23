@@ -130,9 +130,16 @@ p,
 
 .quote-section {
   background-color: var(--light-grey);
+  padding-block: 5rem;
 }
 
 .quote-section h2 {
   font-style: italic;
   font-weight: 300;
+}
+
+.quote-section p {
+  color: black;
+  font-weight: 700;
+  text-align: end;
 }

@@ -1,10 +1,10 @@
 :root {
   --blue: #3882f6;
-  --container-width: 720px;
+  --container-width: 1024px;
   --dark-blue: #1f2937;
   --light-grey: #e5e7eb;
   --main-font-family: Roboto, sans-serif;
-  --container-small-width: 570px;
+  --container-small-width: 768px;
   --white: #f9faf8;
 }
 
@@ -107,7 +107,7 @@ p,
 }
 
 .hero-img-wrapper {
-  max-width: 300px;
+  max-width: 500px;
 }
 
 .info-section {
@@ -158,7 +158,7 @@ p,
   background-color: var(--blue);
   border-radius: 8px;
   color: var(--white);
-  padding-block: 24px;
+  padding-block: 30px;
 }
 
 .cta-wrapper .container-small {
